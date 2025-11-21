@@ -1,0 +1,8 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+sec_data.db
+financial_ratios_analysis.csv
+financial_ratios_visualization.png

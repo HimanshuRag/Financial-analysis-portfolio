@@ -1,5 +1,8 @@
 # Comparative Financial Ratio Analysis: Tech Sector Giants
 
+[![Regenerate outputs](https://github.com/HimanshuRag/Financial-analysis-portfolio/actions/workflows/regenerate.yml/badge.svg)](https://github.com/HimanshuRag/Financial-analysis-portfolio/actions/workflows/regenerate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+
 This repository contains a complete financial analysis and consulting project comparing key financial ratios for major technology companies. It demonstrates skills in Financial Analysis, Python, SQL (SQLite), and Data Visualization using real-world-style data.
 
 Skills demonstrated:
@@ -26,7 +29,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Create the sample SQLite database and load data:
+2. Create the sample SQLite database and load data (optional — sample DB is already included):
 
 ```bash
 python3 load_data.py
@@ -60,3 +63,9 @@ gh repo create your-username/financial-analysis-portfolio --public --source=. --
 ```
 
 Replace `your-username` with your GitHub username. If you prefer to push manually, create an empty repo on GitHub, then add the remote and push.
+
+Contributing
+- Bug reports and pull requests are welcome. For significant changes, open an issue first to discuss the proposed change.
+
+License
+- This project is licensed under the MIT License — see `LICENSE` for details.
